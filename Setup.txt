@@ -1,0 +1,4 @@
+Step (1) Put the files in the server.
+Step (2) Change the hosts ip address.
+Step (3) Run the command "sh Install.sh"
+Step (4) Run the command "nc localhost 443" then login like this "@login Username Passsword"

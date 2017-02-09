@@ -1,0 +1,71 @@
+{
+	"server": {
+		"motd": "Spider JS",
+		"port": 443,
+		"allow_dups": false,
+		"auto_remove_empty_channels": true,
+		"create_channel_auto": true
+	},
+	"admins": {
+		"": {
+			"password": "",
+			"chat_color": "light_red",
+			"ignoring": {
+				"all_users": false,
+				"all_channels": false,
+				"all_events": false,
+				"users": [],
+				"channels": [],
+				"events": []
+			},
+			"listening": {
+				"all_users": false,
+				"all_channels": false,
+				"all_events": false,
+				"users": [],
+				"channels": [],
+				"events": []
+			}
+		},
+		"": {
+			"password": "",
+			"chat_color": "green",
+			"ignoring": {
+				"all_users": false,
+				"all_channels": false,
+				"all_events": false,
+				"users": [],
+				"channels": [],
+				"events": ["server_debug"]
+			},
+			"listening": {
+				"all_users": false,
+				"all_channels": false,
+				"all_events": false,
+				"users": [],
+				"channels": [],
+				"events": []
+			}
+		},
+		"": {
+			"password": "",
+			"chat_color": "blue",
+			"ignoring": {
+				"all_users": false,
+				"all_channels": false,
+				"all_events": false,
+				"users": [],
+				"channels": [],
+				"events": ["server_debug"]
+			},
+			"listening": {
+				"all_users": false,
+				"all_channels": false,
+				"all_events": false,
+				"users": [],
+				"channels": [],
+				"events": []
+			}
+		}
+	}
+}
